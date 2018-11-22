@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body{
-    background-image: image-url('/assets/boats_and_hoes.jpg');
+    //background-image: image-url('/assets/boats_and_hoes.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -21,7 +21,7 @@ p{
 }
 
 .style1 {
-  background: url(images/bg.jpg) no-repeat center center fixed;
+  background: url(/assets/boats_and_hoes.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
