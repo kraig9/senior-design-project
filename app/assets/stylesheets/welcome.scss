@@ -2,28 +2,34 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body{
-    background-image: image-url('/assets/boats_and_hoes.jpg');
+    background-image: image-url('/assets/boat_stock_image.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
 
 h1{
-    color: blue;
+    color: maroon;
+    text-align: center;
+    font-size: 500%;
+    font-family: Apple Chancery;
 }
 
 h2{
-    color: purple;
+    color: #701d00;
+    font-size: 300%;
+    text-align: center;
 }
 
 p{
-    color: green;
+    color: #989b99;
+    text-align: center;
 }
 
-.style1 {
-  background: url(/assets/boats_and_hoes.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+footer{
+    position: fixed;
+    bottom:0;
+    text-align: center;
+    font-size: 400%;
 }
